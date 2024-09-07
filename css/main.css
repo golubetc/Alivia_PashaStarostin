@@ -1,0 +1,215 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Lato', sans-serif; 
+} 
+ 
+a { 
+    text-decoration: none; 
+} 
+ 
+li { 
+    list-style: none; 
+} 
+ 
+/* Header */ 
+.nav-bar { 
+    padding: 17px 0; 
+} 
+ 
+.content-box { 
+    max-width: 1400px; 
+    margin: 0 auto; 
+} 
+ 
+.nav-bar__wrap { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.nav-bar__menu { 
+    display: flex; 
+} 
+ 
+.nav-bar__link { 
+    color: #292929; 
+    font-size: 20px; 
+    font-weight: 500; 
+} 
+ 
+.nav-bar__item { 
+    margin-right: 70px; 
+} 
+ 
+.btn { 
+    color: white; 
+    font-weight: 400; 
+    font-size: 20px; 
+    background-color: #01996D; 
+    padding: 13px 50px; 
+    border-radius: 5px; 
+    border: none; 
+    width: 240px; 
+} 
+ 
+.btn_w { 
+    color: black; 
+    background-color: white; 
+} 
+ 
+/* Main */ 
+.hero-section { 
+    background: url(../img/BG.png) no-repeat center center/ cover; 
+    height: 90vh; 
+    padding-top: 170px; 
+} 
+ 
+.hero-section__info { 
+    max-width: 440px; 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.hero-section__title { 
+    color: #01996D; 
+    font-size: 65px; 
+    margin-bottom: 30px; 
+    font-weight: 900; 
+} 
+ 
+.hero-section__text { 
+    color: #484848; 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-bottom: 55px; 
+} 
+ 
+.features-section { 
+    padding: 169px 0 255px 0; 
+} 
+ 
+.features-section_subtitle { 
+    color: #424242; 
+    font-weight: 700; 
+    font-size: 24px; 
+} 
+ 
+.features-section__title { 
+    color: #01996D; 
+    font-weight: 900; 
+    font-size: 50px; 
+    max-width: 584px; 
+} 
+ 
+.features-section__text { 
+    color: #424242; 
+    font-size: 20px; 
+    font-weight: 500; 
+    max-width: 670px; 
+    margin-bottom: 60px; 
+} 
+ 
+.features-section__block { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 200px; 
+} 
+ 
+.features-section__card-title { 
+    color: #000; 
+    font-weight: 900; 
+    font-size: 30px; 
+    margin-bottom: 55px; 
+} 
+ 
+.features-section__card { 
+    width: 390px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+ 
+.features-section__row { 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.features-section__pic img { 
+    border-radius: 12px; 
+} 
+ 
+.greencolor { 
+    background-color: #245852; 
+} 
+ 
+.white_text { 
+    color: #ffffff; 
+} 
+ 
+.testimonial-section__video { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.hero-section__titles { 
+    color: #fff; 
+    font-size: 65px; 
+    width: 160%; 
+    margin-bottom: 30px; 
+    font-weight: 900; 
+} 
+ 
+.hero-section__texts { 
+    color: #fff; 
+    font-weight: 500; 
+    width: 1200px; 
+    font-size: 20px; 
+    margin-bottom: 55px; 
+} 
+ 
+.btn_rec { 
+    color: white; 
+    font-weight: 400; 
+    font-size: 20px; 
+    background-color: #01996D; 
+    padding: 13px 50px; 
+    border-radius: 5px; 
+    border: none; 
+    width: 300px; 
+} 
+ 
+.product-section__wrap { 
+    display: flex; 
+    justify-content: flex-start; 
+    align-self: start; 
+} 
+ 
+.woman { 
+    margin: 20px; 
+} 
+ 
+.black__text { 
+    color: #000; 
+    margin-top: 20px; 
+    font-weight: 500; 
+    font-size: 20px; 
+    margin-bottom: 55px; 
+} 
+ 
+.footers { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.Alivio__footer { 
+    margin-top: 50px; 
+    color: #fff; 
+    font-weight: 500; 
+    width: 1200px; 
+    font-size: 30px; 
+    margin-bottom: 55px; 
+    font-weight: 900; 
+}
